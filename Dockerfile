@@ -43,7 +43,6 @@ RUN pip --no-cache-dir install \
 
 # http://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp34-cp34m-linux_x86_64.whl
 # https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp27-none-linux_x86_64.whl
-
 # RUN ln -s /usr/bin/python3 /usr/bin/python#
 
 # Set up our notebook config.
@@ -59,7 +58,8 @@ COPY run_jupyter.sh /
 
 # TensorBoard
 EXPOSE 6006
-# IPython
+
+# IPython notebook
 EXPOSE 8888
 
 WORKDIR "/notebooks"
