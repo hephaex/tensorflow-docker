@@ -6,5 +6,12 @@
 
 As tiny docker image, based on Alpine linux. 
 
+## How to run tensorflow docker
+> docker run -it -p 8888:8888 hephaex/tensorflow
+
+* open web-browser your docker host IP
+ https://DockerHOSTIP:8888
+* type "tensorflow" in password box.
+
 ## revision 
 * date: 2017.08.27: support tensorflow 1.3.0 cpu-only
