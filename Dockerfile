@@ -27,6 +27,7 @@ RUN pip --no-cache-dir install \
 	h5py \
         ipykernel \
         jupyter \
+	lxml \
         matplotlib \
         numpy \
         scipy \
