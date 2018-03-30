@@ -41,7 +41,7 @@ RUN pip3 --no-cache-dir install \
 RUN pip3 --no-cache-dir install \
     https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.6-cp36-cp36m-linux_x86_64.whl
 
-
+# https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.5-cp36-cp36m-linux_x86_64.whl
 # https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.4.1-cp34-cp34m-linux_x86_64.whl
 # https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.3.0-cp27-none-linux_x86_64.whl
 # https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.2.1-cp34-cp34m-linux_x86_64.whl
