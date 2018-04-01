@@ -1,5 +1,4 @@
-FROM tensorflow/tensorflow:latest-devel
-
+FROM hephaex/tensorflow
 LABEL maintainer="hephaex@gmail.com"
 
 ARG TF_BRANCH=r1.6
